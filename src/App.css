@@ -1,0 +1,63 @@
+/* App.css */
+.questrial-regular {
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(900px, 1fr));
+  font-family: "Questrial", sans-serif;
+  margin: 0;
+  background-image:url('./background.png');
+  background-size: 1400px 900px;  
+  background-repeat: no-repeat; 
+  background-position: right center;
+  color: #333;
+}
+
+.dashboard {
+  display: flex;
+  height: 100vh;
+}
+.dashboard-card1{
+  display: flex;
+  flex-direction: column;
+}
+.dashboard-cards{
+  margin-top: -30px;
+  margin-left: -20px;
+  display: flex;
+  flex-direction: row;
+}
+.dashboard-top{
+  
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.dashboard-main-content {
+  flex: 1;
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+.dashboard-header {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.dashboard-overview {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.dashboard-h1 {
+  margin: 1rem 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
